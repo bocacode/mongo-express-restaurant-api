@@ -34,7 +34,7 @@ mongoClient.connect(url, options, (err, mongoClient) => {
 })
 
 // send 'Hey class'
-app.get('/', (req, res) => res.status(200).send('Here is my api on AWS!!'))
+app.get('/', (req, res) => res.status(200).send('Here is my api on AWS!! for Hanna'))
 
 // get all items in menu
 app.get('/menu', (req, res) => {

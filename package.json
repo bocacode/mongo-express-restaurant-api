@@ -1,5 +1,5 @@
 {
-  "name": "mongo-express-restaurant",
+  "name": "mongo-express-restaurant-sls",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,6 +13,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.18.1",
-    "mongodb": "^4.5.0"
+    "mongodb": "^4.5.0",
+    "serverless": "^3.16.0"
   }
 }

@@ -33,8 +33,8 @@ mongoClient.connect(url, options, (err, mongoClient) => {
   menudb = db.collection('menu') // assigning a 'menu' collection to the menudb
 })
 
-// send 'Hey class' 
-app.get('/', (req, res) => res.status(200).send('Hey class!'))
+// send 'Hey class'
+app.get('/', (req, res) => res.status(200).send('Here is my api on AWS!!'))
 
 // get all items in menu
 app.get('/menu', (req, res) => {
